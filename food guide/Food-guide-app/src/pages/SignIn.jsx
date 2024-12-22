@@ -36,6 +36,13 @@ const SignIn = () => {
     }
   };
 
+  useEffect(() => {
+    alert(
+      'Note: You can use any email address in the format whatever@whatever.com.\n' +
+      'Please remember your password as there is no recovery option.'
+    );
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
       <div className="w-full max-w-md p-8 bg-gray-800 rounded-lg shadow-lg">
