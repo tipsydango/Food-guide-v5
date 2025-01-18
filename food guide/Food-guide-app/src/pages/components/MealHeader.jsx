@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const MealHeader = ({ meal, isFavorite, handleFavoriteToggle, rating, handleRatingChange }) => {
   return (
     <div className="meal-detail">
-      <img src={meal.strMealThumb} alt={meal.strMeal} className="w-full h-auto object-cover rounded-lg mb-6 mt-2" />
+      <img src={meal.strMealThumb} alt={meal.strMeal} className="w-full h-96 object-cover rounded-lg mb-6 mt-2" />
       <div className="meal-detail-info">
         <h1 className="text-3xl font-bold text-yellow-400 opacity-90 underline mb-4">{meal.strMeal}</h1>
         
